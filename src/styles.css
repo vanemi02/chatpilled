@@ -1,0 +1,40 @@
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  
+  
+  /* color palette */
+  /* https://coolors.co/palette/006466-065a60-0b525b-144552-1b3a4b-212f45-272640-312244-3e1f47-4d194d */
+  --caribbean-current: #006466ff;
+  --midnight-green: #065a60ff;
+  --midnight-green-2: #0b525bff;
+  --midnight-green-3: #144552ff;
+  --charcoal: #1b3a4bff;
+  --prussian-blue: #212f45ff;
+  --space-cadet: #272640ff;
+  --dark-purple: #312244ff;
+  --dark-purple-2: #3e1f47ff;
+  --palatinate: #4d194dff;
+  
+  --background-color: var(--space-cadet);
+  --background-color-2: var(--dark-purple);
+  --background-color-3: var(--palatinate);
+  --border-color: var(--caribbean-current);
+  --text-color: rgb(218, 218, 218);
+  
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
